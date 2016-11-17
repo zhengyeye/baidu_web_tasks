@@ -107,39 +107,52 @@
     <article>
         <h2>这里以后是个侧栏，这是侧栏标题</h2>
         <form action="" method="post">
-            <label for="email">请输入邮箱地址：</label>
-            <input type="email" name="email" placeholder="这是一个文本输入框">
-            <p><span class="author">邮箱地址请按要求格式输入</span></p>
-            <label for="password">请输入密码：</label>
-            <input type="text" name="password" placeholder="这是一个文本输入框"><br>
-            <label for="password">请输入重复密码：</label>
-            <input type="text" name="password" placeholder="这是一个文本输入框">
-            <p><span class="author">密码请为6-16位英文数字</span></p>
-            <label for="sex">性别：</label>
-            <input type="radio" name="sex" value="1" checked="checked">男
-            <input type="radio" name="sex" value="2">女<br>
-            <label for="city">城市：</label>
-            <select>
-                <option value="北京">北京</option>
-                <option value="上海">上海</option>
-                <option value="西安">西安</option>
-                <option value="杭州">杭州</option>
-            </select><br>
-            <label for="hobbies">爱好：</label>
-            <input type="checkbox" name="">运动
-            <input type="checkbox" name="">艺术
-            <input type="checkbox" name="">音乐
-            <input type="checkbox" name="">科学<br>
-            <label for="describe">个人描述：</label>
-            <textarea rows="3" cols="20">
-			这是一个多行文本框
-		</textarea><br>
+            <div class="form-item">
+                <label for="email">请输入邮箱地址：</label>
+                <input type="email" name="email" placeholder="请输入邮箱地址">
+                <p><span class="author">邮箱地址请按要求格式输入</span></p>
+            </div>
+            <div class="form-item">
+                <label for="password">请输入密码：</label>
+                <input type="text" name="password" placeholder="请输入密码"><br>
+            </div>
+            <div class="form-item">
+                <label for="password">请输入重复密码：</label>
+                <input type="text" name="password" placeholder="请再次输入密码">
+                <p><span class="author tip">密码请为6-16位英文数字</span></p>
+            </div>
+            <div class="form-item">
+                <label for="sex">性别：</label>
+                <input type="radio" name="sex" value="1" checked="checked">男
+                <input type="radio" name="sex" value="2">女<br>
+            </div>
+            <div class="form-item">
+                <label for="city">城市：</label>
+                <select>
+                    <option value="北京">北京</option>
+                    <option value="上海">上海</option>
+                    <option value="西安">西安</option>
+                    <option value="杭州">杭州</option>
+                </select><br>
+            </div>
+            <div class="form-item">
+                <label for="hobbies">爱好：</label>
+                <input type="checkbox" name="">运动
+                <input type="checkbox" name="">艺术
+                <input type="checkbox" name="">音乐
+                <input type="checkbox" name="">科学<br>
+            </div>
+            <div class="form-item">
+                <label for="describe">个人描述：</label>
+                <textarea rows="6" cols="40">
+		        </textarea><br>
+            </div>
             <input type="submit" name="" value="确认提交">
         </form>
     </article>
 </aside>
 <footer>
-    <p>版权所有&copy;</p>
+    <p>版权所有&copy;zhengyeye</p>
 </footer>
 </body>
 </html>
