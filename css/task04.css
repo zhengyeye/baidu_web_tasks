@@ -1,0 +1,41 @@
+/**
+ * authon:zhengyeye
+ * create:2016-11-17
+ * update:2016-11-17
+ * desc:task04的css样式
+ */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.father_box {
+    width: 400px;
+    height: 200px;
+    border: 1px solid #eee;
+    background-color: #ccc;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 100px;
+}
+
+.circle_left {
+    background: #fc0;
+    height: 50px;
+    width: 50px;
+    -moz-border-radius: 0 0 50px 0; /* Mozilla浏览器的私有属性 */
+    -webkit-border-radius: 0 0 50px 0;/* Webkit浏览器的私有属性 */
+    border-radius: 0 0 50px 0;
+}
+
+.circle_right {
+    background: #fc0;
+    height: 50px;
+    width: 50px;
+    -moz-border-radius: 50px 0 0 0;
+    -webkit-border-radius: 50px 0 0 0;
+    border-radius: 50px 0 0 0;
+    position: absolute;
+    left:350px;
+    top: 150px;
+}
