@@ -262,14 +262,14 @@ article form {
     text-align: center;
 }
 
-article form input{
-   margin: 6px;
+article form input {
+    margin: 6px;
 }
 
-.form-item label{
+.form-item label {
     display: inline-block;
     width: 112px;
-    height:18px;
+    height: 18px;
     color: black;
     font-size: 14px;
     text-align: right;
