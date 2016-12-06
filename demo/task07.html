@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>07——通过HTML及CSS模拟报纸排版</title>
+    <link rel="stylesheet" href="../css/07.css">
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--顶部开始-->
+<div class="topWrapper">
+    <div class="logoImg1">
+        <a href="">
+            <img src="../img/07_logo.png" alt="">
+        </a>
+    </div>
+    <div class="logoImg right">
+        <ul>
+            <li><a href="">首页</a></li>
+            <li><a href="">最新活动</a></li>
+            <li><a href="">项目介绍</a></li>
+            <li><a href="">爱心社区</a></li>
+            <li><a href="">关于我们</a></li>
+            <li><a href="" class="user">登录</a></li>
+        </ul>
+    </div>
+</div>
+<!--顶部结束-->
+<!--大广告图片开始-->
+<div class="topImgShow">
+</div>
+<!--大广告图片结束-->
+<!--4个分类描述开始-->
+<div class="topDescribe">
+    <ul>
+        <li>
+            <a href=""><img src="../img/07_s_3.png" alt=""></a>
+            <p>打造全新世界观，让你更<br>爱你的生活</p>
+        </li>
+        <li>
+            <a href=""><img src="../img/07_s_4.png" alt=""></a>
+            <p class="bb">完善的营养机制，培养你<br>全新的世界观</p>
+        </li>
+
+        <li>
+            <a href=""><img src="../img/07_s_3.png" alt=""></a>
+            <p>丰富多彩的公益活动，发<br>挥新世界的主人公意识</p>
+        </li>
+        <li class="bb">
+            <a href=""><img src="../img/07_s_4.png" alt=""></a>
+            <p>完善的营养机制，培养你<br>全新的世界观</p>
+        </li>
+    </ul>
+</div>
+<!--4个分类描述结束-->
+<!--logo+文字开始-->
+<div class="topLogo">
+    <div class="topLogo_img">
+        <img src="../img/07_3.png" alt="">
+    </div>
+    <h1>关于新世界，你不知道的还有什么？</h1>
+</div>
+<!--logo+文字结束-->
+<!--搜索开始-->
+<div class="mianResearch">
+    <h2>查找新世界城市活动信息</h2>
+    <p class="mianRe_s">每个城市有不同的活动信息，请自主查询你所需要了解的城市</p>
+    <div>
+        <input type="text" placeholder="中国" class="mianRe_input">
+        <select name="" id="" class="mianRe_input">
+            <option value="1">北京市</option>
+            <option value="1">天津市</option>
+            <option value="1">河北省</option>
+            <option value="1">陕西省</option>
+            <option value="1">内蒙古自治区</option>
+            <option value="1">辽宁省</option>
+        </select>
+        <input type="text" placeholder="城市" class="mianRe_input">
+        <input type="button" value="搜索" class="bt">
+    </div>
+</div>
+<!--搜索结束-->
+<!--4张图片开始-->
+<div class="imgWall">
+    <figure class="left">
+        <img src="../img/07_wall01.png" width="220" height="337"/>
+        <figcaption>
+            北京活动
+            <p>新社区大联盟</p>
+        </figcaption>
+    </figure>
+    <figure class="left kk">
+        <figcaption>
+            北京活动
+            <p>新社区大联盟</p>
+        </figcaption>
+        <img src="../img/07_wall02.png" width="220" height="337"/>
+    </figure>
+    <figure class="left">
+        <img src="../img/07_wall03.png" width="220" height="337"/>
+        <figcaption>
+            北京活动
+            <p>新社区大联盟</p>
+        </figcaption>
+    </figure>
+    <figure class="left">
+        <img src="../img/07_wall04.png" width="220" height="337"/>
+        <figcaption>
+            北京活动
+            <p>新社区大联盟</p>
+        </figcaption>
+    </figure>
+</div>
+<!--4张图片结束-->
+<!--轮播图开始-->
+<div class="banner">
+    <!--bootstrap 的轮播图-->
+    <div id="myCarousel" class="carousel slide">
+        <!-- 轮播（Carousel）指标 -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- 轮播（Carousel）项目 -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="../img/07_car01.png" alt="First slide">
+            </div>
+            <div class="item">
+                <img src="../img/07_car02.png" alt="Second slide">
+            </div>
+            <div class="item">
+                <img src="../img/07_car03.png" alt="Third slide">
+            </div>
+        </div>
+        <!-- 轮播（Carousel）导航 -->
+        <a class="carousel-control left" href="#myCarousel"
+           data-slide="prev">&lsaquo;</a>
+        <a class="carousel-control right" href="#myCarousel"
+           data-slide="next">&rsaquo;</a>
+    </div>
+</div>
+<!--轮播图结束-->
+<!--3张图片开始-->
+<div class="mianImg">
+
+</div>
+<!--3张图片结束-->
+<!--志愿者form开始-->
+<div class="mianForm">
+    志愿者form
+</div>
+<!--志愿者form结束-->
+<!--底部导航栏开始-->
+<div class="bottomWrapper">
+   <div class="top_bottom">上面</div>
+   <div class="bott_bottom">
+       <p class="left">版权所有&copy;zhengyeye</p>
+       <p class="right"><a href="">Back to top</a></p>
+   </div>
+</div>
+<!--底部导航栏结束-->
+</body>
+</html>

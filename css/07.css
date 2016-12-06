@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "黑体";
+    font-size: 14px;
+    margin: 0px;
+    border: 0px;
+    /*background: #DEDEDE;*/
+    min-width: 750px;
+    padding: 10px;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.topWrapper {
+    width: 1279px;
+    height: 100px;
+    border: 1px solid #000;
+}
+
+.topImgShow {
+    height: 690px;
+    border: 1px solid #000;
+    background: url("../img/07_2.png") no-repeat 0 0;
+}
+
+.topDescribe {
+    width: 1279px;
+    height: 250px;
+    border: 1px solid #000;
+}
+
+.topLogo {
+    width: 1279px;
+    height: 360px;
+    border: 1px solid #000;
+    background-color: #EDECEC;
+}
+
+.topLogo_img {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: #A1A1A1;
+    text-align: center;
+}
+
+.mianResearch {
+    color: #FBFAFA;
+    text-align: center;
+    width: 1279px;
+    height: 340px;
+    border: 1px solid #000;
+    background: url("../img/07_5.png") no-repeat 0 0;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+.mianRe_s {
+    margin-top: 20px;
+}
+
+.mianRe_input {
+    margin-top: 55px;
+}
+
+.mianRe_input {
+    width: 235px;
+    height: 35px;
+}
+
+.bt {
+    width: 235px;
+    background-color: #BE4E48;
+    color: #FFFFFF;
+    height: 39px;
+}
+
+.imgWall {
+    width: 1279px;
+    height: 606px;
+    border: 1px solid #000;
+    background-color: #F7F7F7;
+}
+
+figure {
+    margin-top: 100px;
+    text-align: center;
+}
+
+figure p {
+    margin-top: 10px;
+}
+
+figure:first-child {
+    margin-left: 100px;
+    margin-right: 40px;
+}
+
+figure:last-child {
+    margin-left: 40px;
+}
+
+.kk {
+    margin-right: 40px;
+}
+
+.banner {
+    width: 1279px;
+    height: 567px;
+    border: 1px solid #000;
+}
+
+.mianImg {
+    width: 1279px;
+    height: 520px;
+    border: 1px solid #000;
+}
+
+.mianForm {
+    width: 1279px;
+    height: 750px;
+    border: 1px solid #000;
+}
+
+.bottomWrapper {
+    width: 1279px;
+    height: 416px;
+    border: 1px solid #000;
+    background-color: #33363F;
+}
+
+.top_bottom {
+    height: 360px;
+}
+.bott_bottom {
+    height: 60px;
+    background-color: #2F3038;
+}
+
+.bott_bottom p {
+    color: #D5D5D6;
+    line-height: 60px;
+}
+
+.bott_bottom p:first-child {
+    margin-left: 100px;
+}
+
+.bott_bottom p:last-child {
+    margin-right: 100px;
+}
+.bott_bottom a:hover{
+    text-decoration: none;
+}
+/*---------------一步一步来------------------------*/
+.logoImg ul li {
+    list-style: none;
+    float: left;
+}
+
+.logoImg ul li a {
+    text-decoration: none;
+    color: #7D7E82;
+    font-size: 16px;
+    width: 60px;
+    height: 55px;
+    padding: 30px;
+}
+
+.logoImg ul li a:hover {
+    border-bottom: 2px solid red;
+    color: red;
+}
+
+.user {
+    margin-right: 20px;
+    background: url("../img/07_user.png") no-repeat 10px;
+    margin-left: 40px;
+}
+
+.logoImg1 a img {
+    vertical-align: middle;
+}
+
+.logoImg1 a {
+    margin-left: 30px;
+}
+
+.topDescribe ul {
+    overflow: hidden;
+}
+
+.topDescribe ul li {
+    width: 25%;
+    list-style: none;
+    float: left;
+    margin: 20px auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.topDescribe ul li a {
+    width: 70px;
+    height: 50px;
+    padding-bottom: 20px;
+}
+
+.topDescribe ul li p {
+    border-right: 2px solid #767676;
+    line-height: 16px;
+    margin-top: 30px;
+    color: #747474;
+}
+
+
